@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="icon"href="https://e7.pngegg.com/pngimages/266/360/png-clipart-airplane-aircraft-computer-icons-airplane-angle-triangle.png">
+    <!-- fonts -->
+    <link rel="stylesheet" href="../font/fonts.css">
+    <!-- normalize css -->
+    <link rel="stylesheet" href="../CSS/normalize.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="../CSS/utility.css">
+    <link rel="stylesheet" href="../CSS/home.css">
+    <link rel="stylesheet" href="../CSS/responsive.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+   
+</head>
+
+<body>
+    <!-- navbar  -->
+    <nav class="navbar">
+        <div class="container flex">
+            <a href="./project.html" class="site-brand">
+                Tra<span>vel</span>
+            </a>
+            <button type="button" id="navbar-show-btn" class="flex">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div id="navbar-collapse">
+                <button type="button" id="navbar-close-btn" class="flex">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a style="    color: #1ec6b6;
+                        font-weight: bold;" href="./home.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./gallery.html" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./about.html" class="nav-link">About</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link"><i class='fas fa-user fa-6x' ></i></i>/ <span>Login</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar  -->
+    <!-- header -->
+    <header class="flex">
+        <div class="container">
+            <div class="header-title ">
+                <h1>Leave Your Footprints</h1>
+                <p class="animate__animated animate__fadeInRightBig">Get an inside look at Vietnam's best destinations. Let these locals show you around their hometowns with top tips and
+                must-do experiences.</p>
+            </div>
+            <div class="header-form animate__animated animate__fadeInLeftBig">
+                <h2>Choose your Travel location:</h2>
+                <div class="flex">
+                    <input id="search" type="text" list="topics" class="form-control" placeholder="Destination name">
+                    <datalist id="topics">
+                        <option value="Quảng Ninh"></option>
+                        <option value="Đà nẵng"></option>
+                        <option value="Kiên Giang"></option>
+                        <option value="Sầm sơn"></option>
+                        <option value="Huế"></option>
+                        
+                    </datalist>
+                    <input id="date" type="date" class="form-control" placeholder="Date">
+                    <input id="price" type="number" class="form-control" placeholder="Price ($)">
+                    <input id="click" type="submit" class="btn" value="Search">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+
+    <!-- featured section -->
+    <section id="featured" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">know about some places before your travel</span>
+                <h2 class="lg-title">featured places</h2>
+            </div>
+
+            <div class="featured-row">
+                <div class="featured-item my-2 shadow child1">
+                    <img src="../Images/VHL.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Ha Long Bay, Quang Ninh
+                        </span>
+                        <div>
+                            <p class="text">Ha Long Bay in Quang Ninh province - Vietnam includes the waters of Ha Long city, Cam Pha town, and part of Van Don
+                            island district</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow child2" >
+                    <img src="../Images/BNH.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Ba Na Hills, Da Nang
+                        </span>
+                        <div>
+                            <p class="text">So many interesting places such as Asia entertainment park, Ba Na hill, Hoi An ancient town...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow child3">
+                    <img src="../Images/PQ.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Ong Lang Beach, Kien Giang
+                        </span>
+                        <div>
+                            <p class="text">Ong Lang Beach Phu Quoc is located on the west coast of the pearl island, about 7km from Duong Dong town.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow child4">
+                    <img src="../Images/SS.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Sam Son Beach, Thanh Hoa
+                        </span>
+                        <div>
+                            <p class="text">Sam Son Beach is one of the most beautiful beaches in Vietnam and is always the most crowded beach in the North,
+                            Vietnam.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow child5">
+                    <img src="../Images/Hue.jpeg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Hue Imperial Palace, Hue
+                        </span>
+                        <div>
+                            <p class="text">Hue Citadel which was recognized as a World Cultural Heritage by UNESCO.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow child6">
+                    <img src="../Images/SDC.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Son Doong Caves, Quang Binh
+                        </span>
+                        <div>
+                            <p class="text">Son Doong cave in Vietnam is one of the most beautiful natural caves and the largest ever found in the world.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of featured section -->
+
+    <!-- services section -->
+    <section id="services" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">know about services that we offer</span>
+                <h2 class="lg-title">Our services</h2>
+            </div>
+
+            <div class="services-row">
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fas fa-hotel"></i>
+                    </span>
+                    <h3>Luxurious Hotel</h3>
+                    <p class="text">Vinpearl Resort & Spa Phu Quoc offers a journey to experience the unique natural flavors of the pearl island. That's when walking on the beach to watch the brilliant "party of lights" on the horizon, or lounging on a lazy chair to watch a favorite movie at the beach cinema.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </span>
+                    <h3>Travel Guide</h3>
+                    <p class="text">Vietnam has fully reopened for international tourism without any Covid-19 restrictions. Now you are free to discover and enjoy various wild nature destinations like limestone mountains, green terraced rice fields, and white sandy beaches.Holiday is coming, let's get away from it all.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fas fa-money-bill"></i>
+                    </span>
+                    <h3>Suitable Price</h3>
+                    <p class="text">The majorrity of expats moving to Vietnam do so on a short-term basis and therefore opt to rent property rather than buy. The cost of rent will vary depending on the standard of housing a person requires, as well as the location of the property. As the rule thumb, housing in outlying suburbs... </p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of services section -->
+
+    <!-- testimonials section -->
+    <section id="testimonials" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">what our clients say about us</span>
+                <h2 class="lg-title ">testimonials</h2>
+            </div>
+
+            <div class="test-row">
+                <div class="test-item item1" >
+                    <p class="text">The first difference lies in the taxi. In Vietnam, drivers of reputable car companies are very good. They will never
+                    refuse to welcome guests, always voluntarily turn on the counter, dress politely and try to understand foreign guests
+                    like me, not to mention many times when they are really honest.</p>
+                    <div class="test-item-info">
+                        <img src="../Images/P1.jpg" alt="testimonial">
+                        <div>
+                            <h3>Harry Maguire</h3>
+                            <p class="text">Trip to Quang Ninh</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="test-item item2" >
+                    <p class="text">Vietnamese street food is also quite good. I often eat banh mi and pho. But the problem is that I can't find anything
+                    better than these two traditional dishes. Many friends have told me how great Vietnamese food is.</p>
+                    <div class="test-item-info">
+                        <img src="../Images/P2.jpg" alt="testimonial">
+                        <div>
+                            <h3>Erling Haaland</h3>
+                            <p class="text">Trip to Da Nang</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="test-item item3" >
+                    <p class="text">I think the expats community living in HCMC is really exemplary as they have added value to the city and used their hard
+                    earned money for the local economy. Foreign guests bring many other benefits, whether they are backpackers or luxury
+                    resort guests.</p>
+                    <div class="test-item-info">
+                        <img src="../Images/P3.jpg" alt="testimonial">
+                        <div>
+                            <h3>Darwin Núñez</h3>
+                            <p class="text">Trip to Nha Trang</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of testimonials section -->
+
+    <!-- video section -->
+    <!-- <section id="video">
+        <div class="video-wrapper flex">
+            <video loop>
+                <source src="../Video/Demo.mp4" type="video/mp4">
+            </video>
+            <button type="button" id="play-btn">
+                <i class="fas fa-play"></i>
+            </button>
+        </div>
+    </section> -->
+    <!-- end of video section -->
+
+    <!-- footer -->
+    <footer class="py-4">
+        <div class="container footer-row">
+            <div class="footer-item">
+                <a href="./project.html" class="site-brand">
+                    Tra<span>vel</span>
+                </a>
+                <p class="text">There's more to Vietnam than the traditional image of rice paddies and conical hats. Here you'll find a country bursting
+                with energy and forward motion. You'll feel it in the hum and activity on the streets.</p>
+            </div>
+
+            <div class="footer-item">
+                <h2>Follow us on: </h2>
+                <ul class="social-links">
+                    <li>
+                        <a href="https://www.facebook.com/travelvietnamcom">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/vietnamtravelaway/">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/vntours">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-google-plus"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h2>Popular Places:</h2>
+                <ul>
+                    <li><a href="#">Ha Long Bay</a></li>
+                    <li><a href="#">Da Nang</a></li>
+                    <li><a href="#">Phu Quoc</a></li>
+                    <li><a href="#">Nha Trang</a></li>
+                    <li><a href="#">Hue</a></li>
+                </ul>
+            </div>
+
+            <div class="subscribe-form footer-item">
+                <h2>Subscribe for Newsletter!</h2>
+                <form class="flex">
+                    <input type="email" placeholder="Enter Email" class="form-control">
+                    <input type="submit" class="btn" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script src="../JS/home.js"></script>
+    
+    <!-- end of footer -->
+
+    <!-- js -->
+
+        <!-- <script>
+            // play/pause video
+            let video = document.querySelector('.video-wrapper video');
+            document.getElementById('play-btn').addEventListener('click', () => {
+                if (video.paused) {
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            });
+        </script> -->
+     
+</body>
+</html>
